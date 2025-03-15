@@ -14,3 +14,7 @@
 - variable scope mainly tree types local, global
 - local scope occur mainly three types of blocks such as if-else, switch, function within those block.
 - global scope occur when we declare it out of all function or other blocks.
+
+## Receiver function
+- receiver function is that type of function which declare for custom type object and we can call it through object_name.function_name
+- For another type of custom object(struct) it will not working
