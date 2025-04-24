@@ -18,3 +18,7 @@
 ## Receiver function
 - receiver function is that type of function which declare for custom type object and we can call it through object_name.function_name
 - For another type of custom object(struct) it will not working
+
+## Pointer
+- In pass by value there will be copy only values into another array or variable or memory address 
+- In pass by address there will go only one address of the array or variable there save memory space
