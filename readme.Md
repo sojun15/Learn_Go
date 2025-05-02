@@ -22,3 +22,6 @@
 ## Pointer
 - In pass by value there will be copy only values into another array or variable or memory address 
 - In pass by address there will go only one address of the array or variable there save memory space
+
+## slice 
+- in slice there have three elements such as pointer, lenght and capacity. here pointer means starting address, lenght means how much element we can takes from array, capacity means from where we take slice that starting to ending elements

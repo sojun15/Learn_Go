@@ -13,14 +13,14 @@ func print_student_info(student Person) {
 }
 
 func main() {
-	// instantiate or object creation 
+	// instantiate or object creation
 	var student1 = Person{
 		name: "sojun",
 		id:   15,
 	}
 
 	print_student_info(student1)
-	
+
 	// instantiate or object creation
 	var student2 = Person{
 		name: "sourov",
