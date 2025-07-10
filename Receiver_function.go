@@ -2,23 +2,23 @@ package main
 
 import "fmt"
 
-type Animal struct{
-	name string
-	category string 
+type Animal struct {
+	name     string
+	category string
 }
 
-func (animal Animal) print_animal_info(){
-	fmt.Println("Animal name:",animal.name)
-	fmt.Println("Animal catagory:",animal.category)
+func (animal Animal) print_animal_info() {
+	fmt.Println("Animal name:", animal.name)
+	fmt.Println("Animal catagory:", animal.category)
 }
 
-func (animal Animal) Color(color string){
-	fmt.Println("Color is",color)
+func (animal Animal) Color(color string) {
+	fmt.Println("Color is", color)
 }
 
-func main(){
+func main() {
 	var animal1 = Animal{
-		name: "parot",
+		name:     "parot",
 		category: "bird",
 	}
 
@@ -26,7 +26,7 @@ func main(){
 	animal1.Color("green")
 
 	var animal2 = Animal{
-		name: "doyel",
+		name:     "doyel",
 		category: "bird",
 	}
 

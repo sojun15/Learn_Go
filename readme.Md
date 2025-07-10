@@ -25,3 +25,18 @@
 
 ## slice 
 - in slice there have three elements such as pointer, lenght and capacity. here pointer means starting address, lenght means how much element we can takes from array, capacity means from where we take slice that starting to ending elements
+
+## Context switching
+- In our processor there are running multiple processes(tasks) if cpu complete some part of first process then go to the second process complete some part then go to third and more, finally back to the first process and start it task from the next part that is called context switching.
+
+## Concurrency
+- Cpu runs multiple task through context switching that at a time one task is running but our brain think that at a time running multiple task that is called concurrency.
+
+## Process control block
+- In context switching time,after completing first task some part cpu go to the second task but before moving it will store the first task last completed location into PCB so that when it will come again that task it will start the next part of that task.
+
+## core discussion
+- core i3 means in cpu there have three core and each core there have 2 virtual or logical cpu(processor)
+
+## parallelism
+- In our cpu there have multiple virtual cpu such as 10. When we run 2 program at a time then amoung 10 virtual cpu 2 virtual cpu run two task parallelly at a time that is called parallelism.
