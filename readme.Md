@@ -40,3 +40,6 @@
 
 ## parallelism
 - In our cpu there have multiple virtual cpu such as 10. When we run 2 program at a time then amoung 10 virtual cpu 2 virtual cpu run two task parallelly at a time that is called parallelism.
+
+## different range of data type
+- we can declare int8,int16,int32,int64 as our need in golong. Similary we can declare float32,float64 as our need in golong.
