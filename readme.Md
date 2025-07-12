@@ -43,3 +43,6 @@
 
 ## different range of data type
 - we can declare int8,int16,int32,int64 as our need in golong. Similary we can declare float32,float64 as our need in golong.
+
+## defer
+defer function execute at last when get return statement. defer follow LIFO operation
