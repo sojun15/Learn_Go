@@ -46,3 +46,10 @@
 
 ## defer
 defer function execute at last when get return statement. defer follow LIFO operation
+
+## phase
+- Compilation phase (compile time)
+- Executiion phase (runtime)
+
+## closure
+- In any outer function if there have an inner function. After completing outer function task the inner function also be deleted. But if we use inner function or variable of outer function then we will need to return those inner function. Then those will store into heap. As a result we can use them as we need.
